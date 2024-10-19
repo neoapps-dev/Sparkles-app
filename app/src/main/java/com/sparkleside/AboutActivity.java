@@ -32,6 +32,7 @@ public class AboutActivity extends AppCompatActivity {
         Glide.with(getApplicationContext()).load("https://avatars.githubusercontent.com/thdev-only").into(binding.aboutAvatarThiarley);
         Glide.with(getApplicationContext()).load("https://avatars.githubusercontent.com/RohitKushvaha01").into(binding.aboutAvatarRohit);
         Glide.with(getApplicationContext()).load("https://avatars.githubusercontent.com/jetrom17").into(binding.aboutAvatarJetrom);
+	Glide.with(getApplicationContext()).load("https://avatars.githubusercontent.com/neoapps-dev").into(binding.imgNEOAPPS);
         binding.tg.setOnClickListener(v->{
       String url = "http://www.telegram.me/sparkleside";
       Intent i = new Intent(Intent.ACTION_VIEW);
@@ -92,6 +93,14 @@ public class AboutActivity extends AppCompatActivity {
       String url8 = "http://github.com/jetrom17";
       Intent i = new Intent(Intent.ACTION_VIEW);
       i.setData(Uri.parse(url8));
+      startActivity(i);
+                
+        });
+
+	   binding.neoapps.setOnClickListener(v->{
+      String url9 = "http://github.com/neoapps-dev";
+      Intent i = new Intent(Intent.ACTION_VIEW);
+      i.setData(Uri.parse(url9));
       startActivity(i);
                 
         });
