@@ -215,6 +215,37 @@
 							android:textSize="16sp"/>
 					</LinearLayout>
 				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/neoapps"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_marginLeft="18dp"
+					android:padding="8dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="vertical"
+                    android:background="?selectableItemBackgroundBorderless">
+					<LinearLayout
+						android:id="@+id/ln1neo"
+						android:layout_width="80dp"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:gravity="center_horizontal|center_vertical"
+						android:orientation="vertical"
+                        android:background="?selectableItemBackgroundBorderless">
+						<com.google.android.material.imageview.ShapeableImageView
+							android:id="@+id/img_neoapps"
+							android:layout_width="60dp"
+							android:layout_height="60dp"  
+                            app:shapeAppearance="@style/circleImage"/>
+						<TextView
+							android:id="@+id/textview6"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="NEOAPPS"
+							android:textSize="16sp"/>
+					</LinearLayout>
+				</LinearLayout>
 			</LinearLayout>
             
             <TextView
