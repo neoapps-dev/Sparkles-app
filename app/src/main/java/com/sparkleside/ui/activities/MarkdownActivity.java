@@ -28,8 +28,7 @@ public class MarkdownActivity extends BaseActivity {
     getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     getSupportActionBar().setHomeButtonEnabled(true);
     binding.toolbar.setNavigationOnClickListener(v -> onBackPressed());
-    final Markwon markwon = Markwon.create(MarkdownActivity.this);
-    markwon.usePlugin(HtmlPlugin.create())
+    final Markwon markwon = Markwon.builder(MarkdownActivity.this).usePlugin(HtmlPlugin.create()).build();
     markwon.configuration();
     markwon.setMarkdown(binding.markdownView, getIntent().getStringExtra("mark"));
   }
