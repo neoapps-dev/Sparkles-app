@@ -7,6 +7,7 @@ import com.sparkleside.R;
 import com.sparkleside.databinding.ActivityMarkdownBinding;
 import com.sparkleside.ui.base.BaseActivity;
 import io.noties.markwon.Markwon;
+import io.noties.markwon.html.HtmlPlugin;
 
 public class MarkdownActivity extends BaseActivity {
   private ActivityMarkdownBinding binding;
