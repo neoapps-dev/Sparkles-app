@@ -81,9 +81,16 @@ dependencies {
 
   implementation("org.nanohttpd:nanohttpd:2.3.1")
 
-  implementation("io.noties.markwon:core:4.6.2")
-  implementation("io.noties.markwon:html:4.6.2")
-  implementation("io.noties.markwon:image:4.6.2")
+    implementation("io.noties.markwon:core:4.6.2")
+    implementation("io.noties.markwon:ext-strikethrough:4.6.2")
+    implementation("io.noties.markwon:ext-tables:4.6.2")
+    implementation("io.noties.markwon:ext-tasklist:4.6.2")
+    implementation("io.noties.markwon:html:4.6.2")
+    implementation("io.noties.markwon:image:4.6.2")
+    implementation("io.noties.markwon:image-glide:4.6.2") //neo: Glide support
+    implementation("io.noties.markwon:syntax-highlight:4.6.2")
+    implementation("io.noties.prism4j:prism4j:2.0.0")
+    implementation("io.noties.prism4j:prism4j-bundler:2.0.0")
 
   coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.2")
 
