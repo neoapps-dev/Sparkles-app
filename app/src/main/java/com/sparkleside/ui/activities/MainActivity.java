@@ -354,6 +354,7 @@ public class MainActivity extends BaseActivity implements FileTreeEventListener 
   @Override
   protected void onPause() {
     super.onPause();
+    TempCode.tempCode = binding.editor.getText().toString();
   }
 
   @Override
