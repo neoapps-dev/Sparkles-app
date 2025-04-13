@@ -89,8 +89,8 @@ dependencies {
     implementation("io.noties.markwon:image:4.6.2")
     implementation("io.noties.markwon:image-glide:4.6.2") //neo: Glide support
     implementation("io.noties.markwon:syntax-highlight:4.6.2")
-    implementation("io.noties.prism4j:prism4j:2.0.0")
-    implementation("io.noties.prism4j:prism4j-bundler:2.0.0")
+    implementation("com.github.noties:prism4j:v2.0.0")
+    implementation("com.github.noties:prism4j:prism4j-bundler/v1.1.0 ")
 
   coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.2")
 
